@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "institution": {
+            "name": "testInstitution",
+            "description": "testInstitutionDescription",
+            "address": {
+                "country": "testCountry", 
+                "state": "testState",
+                "city": "testCity",
+                "street1": "testStreet",
+                "street2": "testStreet"
+            },
+            "linkId": 1,
+            "thumbImageId": 1,
+            "topImageId": 1
+        },
+        "gpa": 3.9,
+        "duration": {
+            "startYear": 2019,
+            "startMonth": "testMonth",
+            "endYear": 2019, 
+            "endMonth": "testMonth2"
+        },
+        "relatedCourses": [
+            {
+                "name": "testCourse",
+                "description": "testCourseDescription",
+                "grade": "A"
+            }
+        ],
+        "extraCurricularActivities": [
+            {
+                "name": "testActivity",
+                "description": "testActivityDescription",
+                "position": "testPosition"
+            }
+        ],
+        "honors": [
+            {
+                "name": "testHonor",
+                "description": "testDescription"
+            }
+        ]
+    }
+]

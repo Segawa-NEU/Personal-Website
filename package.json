@@ -1,0 +1,52 @@
+{
+  "name": "personal-website",
+  "description": "Personal Website for Me by Vue.js",
+  "version": "1.0.0",
+  "author": "Lucas Suzuki Segawa",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --host 0.0.0.0 --open --hot --config webpack.dev.js",
+    "build": "webpack --progress --hide-modules --config webpack.prod.js"
+  },
+  "dependencies": {
+    "bable-loader": "0.0.1-security",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.26",
+    "express": "^4.17.1",
+    "inversify": "^5.0.1",
+    "jquery": "^3.4.1",
+    "reflect-metadata": "^0.1.13",
+    "vue": "^2.5.11",
+    "vue-parallaxy": "^1.1.1",
+    "vue-router": "^3.0.7",
+    "webpack-cli": "^3.3.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "tslint-webpack-plugin": "^2.1.0",
+    "typescript": "^3.5.3",
+    "vue-class-component": "^7.1.0",
+    "vue-loader": "^15.7.0",
+    "vue-property-decorator": "^8.2.1",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^4.35.3",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  }
+}

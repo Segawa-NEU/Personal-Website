@@ -1,0 +1,28 @@
+[
+    {
+        "id": 0,
+        "company": {
+            "name": "testCompany",   
+            "description": "testCompanyDescription",
+            "tasks": [
+                {
+                    "name": "testTask",
+                    "description": "testTaskDescription",
+                    "skillIds": [
+                        1
+                    ]
+                }
+            ],
+            "linkId": 1,
+            "thumbImageId": 1,
+            "topImageId": 1
+            
+        },
+        "duration": {
+            "startYear": 2019,
+            "startMonth": "testMonth",
+            "endYear": 2020,
+            "endMonth": "testMonth2"
+        }
+    }
+]
