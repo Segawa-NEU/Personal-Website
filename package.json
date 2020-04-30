@@ -15,7 +15,7 @@
     "bootstrap-vue": "^2.0.0-rc.26",
     "express": "^4.17.1",
     "inversify": "^5.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "reflect-metadata": "^0.1.13",
     "vue": "^2.5.11",
     "vue-parallaxy": "^1.1.1",
